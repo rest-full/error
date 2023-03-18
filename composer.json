@@ -1,0 +1,26 @@
+{
+    "name": "rest-full/error",
+    "description": "They are error that can add to the code.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "monolog/monolog": "1.*",
+        "rest-full/http": "1.*",
+        "rest-full/filesystem": "1.*",
+        "rest-full/container": "1.*"
+    }
+}
